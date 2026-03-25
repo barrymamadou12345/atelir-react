@@ -1,0 +1,31 @@
+.App {
+  width: 100%;
+  border: 2px solid rebeccapurple;
+  border-radius: 10px;
+  padding: 40px;
+}
+.h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: blue;
+  cursor: pointer;
+}
+.btn{
+  cursor: pointer;
+  color: red;
+  border: 2px solid blue;
+  padding: 5px 6px;
+  border-radius: 10px;
+}
+.count{
+  font-size: 30px;
+  border: 3px solid blue ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}

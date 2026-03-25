@@ -1,0 +1,64 @@
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+/* === CONFIGURATION DES COULEURS PERSONNALISÉES === */
+@theme {
+  /* Couleurs principales - Palette moderne */
+  --color-primary: #6366f1; /* Indigo moderne */
+  --color-secondary: #8b5cf6; /* Violet */
+  --color-accent: #f59e0b; /* Ambre */
+
+  /* États */
+  --color-success: #10b981; /* Émeraude */
+  --color-danger: #ef4444; /* Rose-rouge */
+  --color-warning: #f59e0b; /* Ambre */
+  --color-info: #3b82f6; /* Bleu */
+
+  /* Fond et surface */
+  --color-background: #f9fafb; /* Gris 50 */
+  --color-surface: #ffffff; /* Blanc */
+
+  /* Texte */
+  --color-text: #111827; /* Gris 900 */
+  --color-text-light: #6b7280; /* Gris 500 */
+  --color-text-lighter: #9ca3af; /* Gris 400 */
+
+  /* Bordures */
+  --color-border: #e5e7eb; /* Gris 200 */
+  --color-border-dark: #d1d5db; /* Gris 300 */
+
+  /* Sidebar */
+  --color-sidebar: #1f2937; /* Gris 800 */
+  --color-sidebar-hover: #374151; /* Gris 700 */
+  --color-sidebar-active: #6366f1; /* Primary */
+}
+
+/* Styles globaux personnalisés */
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
