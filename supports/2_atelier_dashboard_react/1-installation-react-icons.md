@@ -23,9 +23,13 @@ React Icons est une bibliothèque qui regroupe des milliers d'icônes populaires
 ### Avantages
 
 ✅ **Tout-en-un** : Plusieurs bibliothèques d'icônes en un seul package
+
 ✅ **Composants React** : Utilisation native avec React
+
 ✅ **Personnalisable** : Taille, couleur, style facilement modifiables
+
 ✅ **Léger** : Import uniquement des icônes utilisées
+
 ✅ **TypeScript** : Support complet de TypeScript
 
 ---

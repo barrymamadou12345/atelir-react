@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Bouton from "./components/ui/Button";
 
 function App() {
   const competences = ["JavaScript", "React", "HTML/CSS", "Git"];
@@ -32,9 +33,7 @@ function App() {
         ))}
       </ul>
 
-      <button className="btn" onClick={HandleClique}>
-        Incrementer
-      </button>
+      <Bouton texte="Incrementer" couleur={'#000'} onClick={HandleClique} />
 
       <div className="count">{count}</div>
     </div>

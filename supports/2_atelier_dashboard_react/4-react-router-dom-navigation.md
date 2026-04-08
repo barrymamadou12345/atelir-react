@@ -24,9 +24,13 @@ React Router est une bibliothèque qui permet de gérer la navigation entre diff
 ### Avantages
 
 ✅ **Navigation fluide** : Pas de rechargement de page
+
 ✅ **URLs propres** : `/accueil`, `/profil`, `/settings`
+
 ✅ **Historique** : Boutons précédent/suivant du navigateur fonctionnent
+
 ✅ **Routes dynamiques** : `/utilisateur/:id`
+
 ✅ **Routes imbriquées** : Layouts avec sous-pages
 
 ---
@@ -620,11 +624,17 @@ export default App;
 Vous avez appris :
 
 ✅ Installer React Router DOM
+
 ✅ Configurer les routes avec BrowserRouter, Routes, Route
+
 ✅ Naviguer avec Link
+
 ✅ Utiliser useLocation pour détecter la page active
+
 ✅ Utiliser useNavigate pour la navigation programmatique
+
 ✅ Créer des routes dynamiques avec useParams
+
 ✅ Construire un Dashboard complet avec navigation
 
 ---
